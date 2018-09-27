@@ -13,7 +13,7 @@ namespace IssueWithMockVerification
             var outsideWorldMock = new Mock<IOutsideWorld>();
             var antHill = new AntHill(outsideWorldMock.Object);
 
-            outsideWorldMock.Setup(m => m.SendOut(It.IsAny<Ant>())).Verifiable();
+            outsideWorldMock.Setup(m => m.SendOut(It.IsAny<Ant>()));
 
             //Act
             antHill.SendOutTwoSoldierAnts();
