@@ -95,3 +95,5 @@ Mocking verification also works.
 ## Final thoughts
 
 So I can get the code to work. And I know the second solution is a better implementation than the initial one. But I am not seeing the problem here. I'm guessing this is an issue with, or my limited knowledge of, the mocking library Moq.
+
+Please enlighten me if you know the issue here :-)
